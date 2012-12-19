@@ -1,0 +1,24 @@
+/*
+*/
+
+body { background-repeat:no-repeat; padding:0; margin:0; }
+a { outline:none; }
+p { padding:0; margin:0; }
+img { border:0; }
+
+#iphone-scrollcontainer {  width:320px; position:absolute; top:224px; 
+left:181px;
+	height: 106px;
+	margin-top: 0px;
+}
+#iphone-inside { overflow: hidden; height:100%; width:100%; }
+#unlock-top { position: relative; height:95px;  }
+#unlock-spacer { height:272px; /* Total height = 461px - 95px (top) - 94px (bottom) */ }
+#unlock-bottom { position: relative; height:94px; background-image:url(../images/lock-bottom.png); }
+#slide-to-unlock {  position: absolute; z-index: 1; top: 0; left: 0; width: 100%; height:94px; background-image:url(../images/slide-to-unlock.gif); }
+#unlock-slider-wrapper { padding-left:22px; padding-top:23px; }
+#unlock-slider { width:277px; height:50px; }
+#unlock-handle{ position: absolute; z-index: 10; height: 50px; width: 72px; top: 0px; left: 0px; background-image: url(../images/lock-slider.png); }
+
+/* Used by the jQuery slider */
+.ui-slider { position: relative; background-repeat: no-repeat; background-position: center center; }
